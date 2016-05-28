@@ -9,3 +9,6 @@ db-run:
 
 url-list:
 	php app/console debug:route
+
+db-update:
+	php app/console doctrine:schema:update --force
